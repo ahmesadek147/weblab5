@@ -1,0 +1,132 @@
+body {
+  background: #f4f6fb;
+  color: #1c1c1c;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.app {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h1 {
+  color: #3a3b98;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form input,
+.form textarea {
+  background: #eef1f7;
+  color: #1e1e1e;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  box-shadow: 0 0 0 2px #3a3b98;
+}
+
+.stars {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.stars span {
+  color: #c7c7c7;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.stars span:hover {
+  transform: scale(1.2);
+}
+
+.form button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.25s ease;
+}
+
+.form button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+.movie-list {
+  margin-top: 30px;
+}
+
+.movie-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: 0.25s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.movie-card h2 {
+  margin: 0 0 8px;
+  color: #3a3b98;
+}
+
+.stars-display {
+  font-size: 20px;
+  color: #ffcc00;
+  margin: 5px 0;
+}
+
+.review {
+  font-style: italic;
+  color: #444;
+  margin: 5px 0 10px;
+}
+
+.delete-button {
+  background: #ff6b6b;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.delete-button:hover {
+  background: #e63946;
+  transform: scale(1.05);
+}
